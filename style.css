@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Oswald;
+    
+}
+
+.form{
+    display: flex;
+    justify-content: start;
+    align-content: center;    
+}
+.signup{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 150px;
+    margin-left: 0%;
+    font-size: 30px;
+    font-weight: bolder;
+    
+}
+.fld{
+   
+    font-size: 20px;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4 , 1fr);
+    width: 50vw;
+   
+    
+}
+.fld>div>input{
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    padding-left: 5px;
+    
+    
+}
+
+input:hover{
+    border: 2px solid #cfa12d;
+}
+.ad{
+    padding-left: 100px;
+    
+}
+
+.signup{
+    grid-column: span 2;
+    
+}
+.side-container{
+    display: flex;
+    background-image: url(https://c.tenor.com/_f2m8iblpNUAAAAd/anime.gif);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 700px;
+   
+
+
+}
+label{
+    
+    padding-left: 10px;
+    padding-bottom: 5px;
+    font-size: 22px;
+}
+.img{
+    position: relative;
+    height: 100vh;
+    width: 700px;
+    border-radius: 5px;
+}
+.info{
+    padding-left: 50px;
+    font-size: 40px;
+}
+.lets{
+    padding-left: 55px;
+    padding-top: 100px;
+}
+.button>button{
+   height: 50px;
+   width: 120px;
+   font-size: 20px;
+   border-radius: 10px;
+   background-color: #cfa12d;
+}
+.button{
+    padding-left: 5px;
+    padding-top: 10px;
+}
+button:hover{
+    background-color: #cfa12d;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-size: 3vw;
+    background-color: rgb(0, 0, 0, .50) ;
+}
+
+.log{
+    padding-top: 10px;
+}
+.already{
+    grid-column: span 2;
+    font-size: 20px;
+}
+.already>a{
+    color: #cfa12d;
+    text-decoration: none;
+}
+label,input{
+    display:flex;
+    justify-content: flex-start;
+  }
+@media only screen and (max-width: 550px){
+    .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-content: center;    
+        padding: 10px;
+    }
+    .fld{
+        display: flex;
+        flex-direction: column;
+    }
+    .button>button{
+        height: 40px;
+        width: 100px;
+        font-size: 20px;
+        border-radius: 10px;
+        background-color: #cfa12d;
+     }
+    .input{
+        padding: 10px;
+    }
+    label,input{
+        display:flex;
+        justify-content: flex-start;
+        padding-left: 0%;
+      }
+      .side-container{
+        display: flex;
+        background-image: url(./images/side.jpg);
+        background-size: cover;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+        width: 100%;
+}
