@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Oswald;
-    
+    overflow: hidden;
 }
 
 .form{
@@ -17,7 +17,6 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    padding-top: 150px;
     margin-left: 0%;
     font-size: 30px;
     font-weight: bolder;
@@ -63,6 +62,8 @@ input:hover{
     align-items: center;
     height: 100vh;
     width: 700px;
+    padding: 0;
+    margin: 0;
    
 
 
@@ -85,7 +86,7 @@ label{
 }
 .lets{
     padding-left: 55px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 .button>button{
    height: 50px;
@@ -106,6 +107,7 @@ button:hover{
     justify-content: center;
     width: 100%;
     font-size: 3vw;
+    color: white;
     background-color: rgb(0, 0, 0, .50) ;
 }
 
@@ -113,7 +115,7 @@ button:hover{
     padding-top: 10px;
 }
 .already{
-    grid-column: span 2;
+    padding-top: 25px;
     font-size: 20px;
 }
 .already>a{
@@ -153,7 +155,7 @@ label,input{
       }
       .side-container{
         display: flex;
-        background-image: url(./images/side.jpg);
+        background-image: url(https://c.tenor.com/_f2m8iblpNUAAAAd/anime.gif);
         background-size: cover;
         justify-content: center;
         align-items: center;

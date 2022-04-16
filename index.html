@@ -5,20 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
     <title>signup</title>
 </head>
 <body>
     <div class="test">
         <div class="form">
             <div class="side-container">
-                <h1 class="logo"> <img class="log" src="./images/logo.svg" alt="" height="55px" width="80px"> Khaled space agency</h1>               
+                <h1 class="logo"> <img class="log" src="./images/logo.svg" alt="" height="55px" width="80px"> Khaled Jamal</h1>               
             </div>
             
             <div class="signup">
                 <div class="info">This is not a real online service! you know you need something like this in your life</div>
                 <div class="lets">lets do this!</div>
                 <div class="ad">
-                    <form class="fld" action="" method="post">
+                    <form id="form" class="fld" action="" method="post">
                         <div class="input">
                             <label for="firstname">First Name</label>
                             <input type="text" id="firstName" placeholder="Khaled.." required>
@@ -45,7 +46,7 @@
                             <input type="password" id="onfirmPassword" required>
                         </div>
                         <div class="button input">
-                            <button>Create Accout</button>
+                            <button type="submit">Create Accout</button>
                         </div>
                         <div class="already input">Already have an account? <a href="http://">Log in</a></div>
                     </form>
